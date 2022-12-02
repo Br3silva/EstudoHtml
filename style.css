@@ -1,121 +1,50 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
 
-
-a{
-
-    text-decoration: none;
-    padding: 30% 30%;
-    font-family: 'Quicksand', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-ul{
-
-
+.login-container{
     display: flex;
-    flex-direction: row;
-    list-style:none ;
-   padding: auto 5%;
-
-    
-
-
-
+    justify-content: center;
+    background-color:rgb(128, 122, 122);
+   height:200px;
+   width: 300px;
+   border-radius: 20px;
 }
-.navBar{
-
-
+.divForm{
+ width: 200px;
+height: 100px;
 display: flex;
-flex-direction: row;
-
-
-
-
-
-
+flex-direction: column;
 }
-
-
-body{
-
-    background-color: rgb(149, 168, 184);
-}
-
 h2{
 
-
-font-family: 'Quicksand', sans-serif;
-
+margin: 10px;
 
 }
 
+label{
 
-
-.divLoginP {
-    
-    width:  auto;
-    height:  350px;
-    display: flex;
-    justify-content: left;
-    
-
-
-  
-
-}
-.divLoginS {
-
-
-    background-color: rgb(81, 80, 139);
-    width:  300px;
-    height:  350px;
-    display: flex;
-    justify-content: center;
-   
-    border-radius: 10%;
-    
-}
-
-input{
 display: flex;
-width: 400px;
-height: 25px;
-column-gap: 30%;
-padding: auto 60%;
-
-
-}
-
-button{
-
-
-
-height: 10%;
-width: 30%;
-background-color: rgb(192, 204, 83);
-font-family: 'Quicksand', sans-serif;
-
-border-radius: 10%;
-
-}
- .login{
-width: auto;
-margin: 1% 1%;
- }
-
-.divCenter{
-    display: flex;
-    flex-direction: column;
-    border-radius: 10%;
-    justify-content: center;
-
- }
-
- .loginAcesso{
-
-padding: 30% auto;
 justify-content: center;
-display: flex;
+margin: 10px;
+
+}
+input{
+
+    border-radius: 10%;
+    border-color: black;
+}
+.centralCont{
+
+    background-color: rgb(148, 94, 12);
+    display: flex;
+    justify-content: center;
 
 
- }
+
+
+}
