@@ -1,50 +1,80 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 *{
-
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+
+
 }
-.login-container{
+body{
+    background-color: #4D94B2;
+
+}
+.container{
+    position: relative;
+   width: 1000px;
+   height: 300px;
+   left: 0px;
+   top:100px;
+  }
+.areaCadastro{
+    font-family: 'Quicksand', sans-serif;
+    position:absolute;
+    left:60px;
+    top: 15%;
+    background-color: rgb(85, 73, 150);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    padding-top: 15px;
+    
+}
+
+.input{
     display: flex;
-    justify-content: center;
-    background-color:rgb(128, 122, 122);
-   height:200px;
-   width: 300px;
-   border-radius: 20px;
+    flex-direction: column;
+    height: 50px;
+    width: 150px;
+    padding-left: 30px;
 }
-.divForm{
- width: 200px;
-height: 100px;
-display: flex;
-flex-direction: column;
-}
-h2{
-
-margin: 10px;
-
-}
-
 label{
-
-display: flex;
-justify-content: center;
-margin: 10px;
+padding-left: 0px;
 
 }
-input{
+.check{
 
-    border-radius: 10%;
-    border-color: black;
+    height: 50px;
+    width: 150px;
+    padding-left: 30px;
+
+
 }
-.centralCont{
+.h2{
+font-family: 'Kanit', sans-serif;
+background-color: rgb(112, 96, 74);
+font-size: 30px;
+}
 
-    background-color: rgb(148, 94, 12);
+button{
+
+position: absolute;
+left: 50px;
+width: 100px;
+border-radius: 10px;
+}
+button:hover{
+
+    background-color: #4D94B2;
+    border-radius: 10px;
+    transition: 2s;
+}
+.data{
+
+    border-radius: 20px;
     display: flex;
-    justify-content: center;
-
-
-
-
+    flex-direction: column;
+    height: 50px;
+    width: 150px;
+    padding-left: 30px;
 }
