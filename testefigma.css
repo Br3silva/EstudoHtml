@@ -1,0 +1,57 @@
+body{
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    background: #6EAD8F;
+    background-blend-mode: darken;
+
+}
+
+.barra_lateral{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 222px;
+    height: 1024px;
+    
+    background: #395B7A;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+
+}
+
+.container_login{
+  display: block;
+
+    box-sizing: border-box;
+
+    position: relative;
+    left: 419px;
+    top: 284px;
+    
+    width: 872px;
+    height: 433px;
+    
+    background: #6EAD8F;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+
+
+}
+
+.area_login{
+
+
+
+    
+position: absolute;
+width: 875px;
+height: 433px;
+left: -1px;
+top: 0px;
+
+background: #395B7A;
+}
